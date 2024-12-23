@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
-        run: echo "just a line for test"
+      run: echo "just a line for test"
     - name: Run multi-line script
       run: |
         echo "An action thrat print multiple lines"
